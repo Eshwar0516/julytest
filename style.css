@@ -1,13 +1,149 @@
 #nav{
     display:flex;
-   
     justify-content: space-between;
+    background-color: black;
+    height: 30px;*
+    margin-top: 0px;
+    padding-top: 10px;
+    border:2px solid whitesmoke;
+    border-radius: 10px;
+    
 
 
 }
+
+
 .leftlinks>a{
     text-decoration: none;
-    border: 20px;
+    padding:5px 40px 5px 40px;
+    background-color:  #1A1C19;
+    border-radius: 20px;
+    border:2px solid whitesmoke;
+    text-align: center;
+   /* height:30px;*/
+    margin:0 px 20px 0px 20px;
+    color: whitesmoke;
+    
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(10,168px);
+    grid-template-rows: repeat(10,72px);
+    width:100%;
+    
+    
+  }
+  #item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    background-color: whitesmoke;
+    
+  }
+  #item2{
+    grid-column: 4/10;
+    grid-row:1/4;
+    background-color:  #8E886D;
+    
+    padding: 20px 30px 20px 30px;
+    
+    
+    
+
+  }
+  #item3{
+    grid-column: 4/7;
+    grid-row:4/10;
+    background-color: #916E58;
+   text-align: left;
+   padding-left: 25px;
+   padding-top: 20px;
+
+  }
+  #item4{
+    grid-column: 7/10;
+    grid-row:4/10;
+    background-color: #B1A48E;
+    text-align: left;
+   padding-left: 25px;
+   padding-top: 20px;
+    
+    
+
+  }
+
+  #item1, #item2, #item3, #item4{
+  border-radius: 25px;
+  margin:5px;
+  }
+
+.something{
+    border: 2px solid #323025;
+    ;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 20px;
+    width:120px;
+    margin-left: 20px;
+}
+
+.anotherheading{
+  text-align: left;
+  
+  
+text-decoration: underline;
+
 
 
 }
+
+.image {
+ margin-left: 20px;
+ border-radius: 20px;
+ padding-top:0px;
+ 
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.bottom h4{
+  margin: 2px 0px 0px 10px;
+}
+.fa-solid  {
+  margin:2px 20px 20px 0px;
+  font-size: 20px;
+  
+  
+}
+.cloud,.nature{
+  border-radius: 20px;
+}
+.kohli{
+  border-radius:50%;
+  padding: 20px 20px 20px 20px;
+}
+
+a:hover:not(.active){
+  background-color: #8E886D;
+
+}
+.image:hover{
+  transform: scale(1.05);
+}
+.nature:hover{
+  transform: scale(1.05);
+}
+.cloud:hover{
+  transform: scale(1.05);
+}
+.kohli:hover{
+  transform: scale(1.05);
+}
+
+
+
+  
+
