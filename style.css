@@ -1,6 +1,6 @@
 #nav{
     display:flex;
-    text-decoration: none;
+   
     justify-content: space-between;
 
 
@@ -8,6 +8,6 @@
 .leftlinks{
     text-decoration: none;
     border: 20px;
-    
+
 
 }
